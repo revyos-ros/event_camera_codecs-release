@@ -1,0 +1,12 @@
+Source: ros-humble-event-camera-codecs
+Section: misc
+Priority: optional
+Maintainer: Bernd Pfrommer <bernd.pfrommer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-auto, ros-humble-ament-cmake-clang-format <!nocheck>, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-cmake-ros, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-class-loader, ros-humble-event-camera-msgs, ros-humble-rclcpp <!nocheck>, ros-humble-ros-environment, ros-humble-rosbag2-cpp <!nocheck>, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-event-camera-codecs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-class-loader, ros-humble-event-camera-msgs, ros-humble-ros-environment, ros-humble-ros-workspace
+Description: package to encode and decode event_camera_msgs
