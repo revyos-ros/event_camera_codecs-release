@@ -1,0 +1,51 @@
+ros-jazzy-event-camera-codecs (2.0.0-1noble) noble; urgency=high
+
+  * avoid ament_target_dependencies
+  * bumped cmake required
+  * Contributors: Bernd Pfrommer
+
+ -- Bernd Pfrommer <bernd.pfrommer@gmail.com>  Thu, 22 May 2025 00:00:00 -0000
+
+ros-jazzy-event-camera-codecs (1.0.5-1noble) noble; urgency=high
+
+  * fix formatting for noble
+  * updated build instructions
+  * Contributors: Bernd Pfrommer
+
+ -- Bernd Pfrommer <bernd.pfrommer@gmail.com>  Wed, 29 May 2024 00:00:00 -0000
+
+ros-jazzy-event-camera-codecs (1.0.4-1noble) noble; urgency=high
+
+  * added hasSensorTimeSinceEpoch() and getTimeMultiplier()
+    This is to support libcaer event python processing
+  * added newInstance(msg) methods
+  * Contributors: Bernd Pfrommer
+
+ -- Bernd Pfrommer <bernd.pfrommer@gmail.com>  Sun, 04 Feb 2024 00:00:00 -0000
+
+ros-jazzy-event-camera-codecs (1.0.3-1noble) noble; urgency=high
+
+  * added tests
+  * added libcaer_cmp, libcaer and improved README
+  * make decoder factory geometry aware, use new ros1 ci
+  * use new CI rules
+  * add dependency on class_loader
+  * Contributors: Bernd Pfrommer
+
+ -- Bernd Pfrommer <bernd.pfrommer@gmail.com>  Sat, 16 Dec 2023 00:00:00 -0000
+
+ros-jazzy-event-camera-codecs (1.0.2-1noble) noble; urgency=high
+
+  * add dependency on class_loader
+  * Contributors: Bernd Pfrommer
+
+ -- Bernd Pfrommer <bernd.pfrommer@gmail.com>  Tue, 19 Sep 2023 00:00:00 -0000
+
+ros-jazzy-event-camera-codecs (1.0.1-1noble) noble; urgency=high
+
+  * initial release
+  * Contributors: Bernd Pfrommer
+
+ -- Bernd Pfrommer <bernd.pfrommer@gmail.com>  Tue, 29 Aug 2023 00:00:00 -0000
+
+
